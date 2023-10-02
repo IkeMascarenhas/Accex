@@ -1,0 +1,15 @@
+@media(max-width:480px){
+    header{
+        width: 100vw;
+        height: 10vh;
+        background-color: white;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header div{
+        width: 55vw;
+        display: flex;
+        justify-content: space-between;
+    }
+}
