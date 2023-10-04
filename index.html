@@ -7,13 +7,22 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="js/menu.js" defer></script>
   </head>
   <body>
     <header>
       <span></span>
       <a href="#"><img src="image/logoAccex-azul.png" alt="Logo" /></a>
-      <img src="image/iconePERFIL.png" id="usuario" alt="User" />
+      <img src="image/iconePERFIL.png" id="usuario" alt="User" class="open-menu"/>
+      <nav class="menu-container">
+        <ul>
+          <li><a href="login.html">Entrar</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="#">Perfil</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="categories">
       <form class="searchBar">
@@ -44,6 +53,7 @@
           <p>Parques</p>
         </div>
         <div>
+
           <a href="#"
             ><img src="image/iconeRESTAL.png" alt="Ícone categoria"
           /></a>
@@ -205,12 +215,12 @@
           </div>
         </div>
         <div class="signUp">
-          <div>
+          <div class="cadastrar-home">
             <img src="image/iconeCADASTR.png" alt="Ícone" />
             <p>Com o seu cadastro, você <br> encontrará variados lugares</p>
-            <a href="#">Me cadastrar</a>
+            <a href="cadastro.html">Me cadastrar</a>
           </div>
-          <div>
+          <div class="addLocal-home">
             <img src="image/iconeADDLOCA.png" alt="Ícone" />
             <p>Ajude-nos <br> a crescer</p>
             <a href="#">Adicionar Local</a>
@@ -221,6 +231,7 @@
     <footer>
       <a href="#">Fale conosco</a>
       <div class="rodape-info">
+        <img src="image/logoAccex-branca.png" alt="" id="logo">
         <p>E-mail <br/> accex@gmail.com</p>
         <div class="socialMedia">
           <div><img src="image/logoFaceb.png" alt="Ícone Facebook" /></div><div>

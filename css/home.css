@@ -296,6 +296,14 @@
         font: normal 3.5vw "Montserrat",sans-serif;
     }
 
+    .addLocal-home{
+        display: none !important;
+    }
+
+    /* .cadastrar-home{
+        display: none !important;
+    } */
+
     footer{
         margin-top: 8vh;
         width: 100vw;

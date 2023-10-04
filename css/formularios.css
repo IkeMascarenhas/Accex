@@ -1,0 +1,45 @@
+@media(max-width:480px){
+h1{
+    background-image:linear-gradient(to right, #00518C,  #377ED0 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    color: white;
+    font: normal 4vw "Montserrat",sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+form label{
+    font: normal 3.5vw "Montserrat",sans-serif;
+    margin-bottom: 2.5vw;
+}
+
+form input{
+    border: 1px solid #797979;
+    padding: 2.5vw;
+    border-radius: 10px;
+    margin-bottom: 10vw;
+}
+
+form button{
+    width: 100%;
+    background-image: linear-gradient(to right, #00518C,  #377ED0 );
+    padding: 2.5vw;
+    color: white;
+    border-radius: 10px;
+}
+
+form textarea{
+    border: 1px solid #797979;
+    border-radius: 10px;
+    padding: 5vw;
+    margin-bottom: 5vh;
+}
+}
