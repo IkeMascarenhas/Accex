@@ -159,34 +159,6 @@
         font: normal 4vw 'Montserrat',sans-serif;
     }
 
-    .maps{
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2vh;
-    }
-
-    .maps iframe{
-        width: 100%;
-        height: 100%;
-        aspect-ratio: 16/9;
-    }
-
-    .maps button{
-        width: 100%;
-        background-color: white;
-        font: normal 3vw "Montserrat",sans-serif;
-        color: #797979;
-    }
-
-    .maps hr{
-        width: 100vw;
-        height: 1px;
-        background-color: #797979;
-    }
-
     .locations{
         width: 100vw;
         display: flex;
@@ -222,7 +194,8 @@
         padding: 10vw;
         border: 1 px solid white;
         box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.253);
-        border-radius: 15%;
+        border-radius: 60px;
+        gap: 1vh;
     }
 
     .place>img{
@@ -231,4 +204,148 @@
         aspect-ratio: 16/9;
         object-fit: cover;
     }
-}
+
+    .place .info-place{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+
+    }
+
+    .info-place div:first-child{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-place div:first-child h2{
+        font: bold 3.5vw "Montserrat", sans-serif;
+        color: #00518C;
+    }
+
+    .address{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vw;
+
+    }
+
+    .address img{
+        width: 8%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .address p {
+        font: normal 3.2vw "Montserrat",sans-serif;
+        color: #797979;
+    }
+
+    .info-place .desc p{
+        font: normal 3vw "Montserrat",sans-serif;
+        color: #797979;
+    }
+
+    .info-place a{
+        width: 100%;
+        border: 1px solid #797979;
+        border-radius: 30px;
+        padding: 2.5vw 2vw;
+        text-align: center;
+        color: #00518C;
+        font: bold 3.5vw "Montserrat",sans-serif;
+    }
+
+    .signUp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .signUp div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vh;
+        width: 80vw;
+    }
+
+    .signUp div img{
+        width: 20%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .signUp div p{
+        font: normal 4vw "Montserrat",sans-serif;
+        color: #797979;
+    }
+
+    .signUp div a{
+        width: 70%;
+        border: 1px solid #797979;
+        color: #00518C;
+        padding: 2.5vw 2vw;
+        border-radius: 30px;
+        font: normal 3.5vw "Montserrat",sans-serif;
+    }
+
+    footer{
+        margin-top: 8vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        background-image: linear-gradient(135deg, #00518C,  #377ED0 );
+        padding: 5vh 10vw;
+        color: white;
+    }
+
+    footer>a{
+        color: white;
+    }
+
+    footer .rodape-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 10vw;
+    }
+
+    .rodape-info p{
+        font: normal 3.5vw "Montserrat",sans-serif;
+    }
+
+    .socialMedia{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+
+    .socialMedia div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 15%;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    .socialMedia div img{
+        width: 60%;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+    }
+
+    
+    }

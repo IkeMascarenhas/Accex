@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/slider.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   </head>
   <body>
     <header>
@@ -113,19 +114,6 @@
       <section class="placeText">
         <p>Lugares perto de você</p>
       </section>
-      <section class="maps">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.5602750684525!2d-46.892355925417114!3d-23.512342878833522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf03e63bc7a06d%3A0xc14462a7d6d04032!2sITB%20Bras%C3%ADlio%20Flores%20de%20Azevedo%20(FIEB)!5e0!3m2!1spt-BR!2sbr!4v1696275111481!5m2!1spt-BR!2sbr"
-          width="400"
-          height="300"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <button>Permitir acesso á minha localização</button>
-        <hr>
-      </section>
       <section class="locations">
         <div class="locationUser">
           <img src="image/inoceLOCALIZ.png" alt="Ícone Local" />Barueri
@@ -138,13 +126,19 @@
           <div class="info-place">
             <div>
               <h2>Lummina hotel</h2>
-              <span class="rating"></span>
+              <span class="rating">
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+              </span>
             </div>
-            <div>
+            <div class="address">
               <img src="image/inoceLOCALIZ.png" alt="Ícone local" />
               <p>Avenida Anápolis, 584 - Vila Nilva Barueri - SP</p>
             </div>
-            <div>
+            <div class="desc">
               <p>
                 Este hotel se encontra em Alphaville, Barueri. Sendo um ótimo
                 lugar para acomodar-se.
@@ -160,17 +154,22 @@
           />
           <div class="info-place">
             <div>
-              <h2>Lummina hotel</h2>
-              <span class="rating"></span>
+              <h2>Faculdade FATEC</h2>
+              <span class="rating">
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+              </span>
             </div>
-            <div>
+            <div class="address">
               <img src="image/inoceLOCALIZ.png" alt="Ícone local" />
-              <p>Avenida Anápolis, 584 - Vila Nilva Barueri - SP</p>
+              <p>Avenida Carlos Capriotti, 123 Centro de Barueri - SP</p>
             </div>
-            <div>
+            <div class="desc">
               <p>
-                Este hotel se encontra em Alphaville, Barueri. Sendo um ótimo
-                lugar para acomodar-se.
+                Nesta faculdade, você aprenderá com <br> facilidade de acesso para inclusão.
               </p>
             </div>
             <a href="#"><p>Mais detalhes</p></a>
@@ -183,14 +182,20 @@
           />
           <div class="info-place">
             <div>
-              <h2>Lummina hotel</h2>
-              <span class="rating"></span>
+              <h2>Supermercado Dia</h2>
+              <span class="rating">
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+                <i class="fa-solid"></i>
+              </span>
             </div>
-            <div>
+            <div class="address">
               <img src="image/inoceLOCALIZ.png" alt="Ícone local" />
-              <p>Avenida Anápolis, 584 - Vila Nilva Barueri - SP</p>
+              <p>AV. Vinte e Seis de Março, 989 Centro de Barueri - SP</p>
             </div>
-            <div>
+            <div class="desc">
               <p>
                 Este hotel se encontra em Alphaville, Barueri. Sendo um ótimo
                 lugar para acomodar-se.
@@ -201,13 +206,13 @@
         </div>
         <div class="signUp">
           <div>
-            <img src="image/inoceCHECK.png" alt="Ícone" />
-            <p>Com o seu cadastro, você encontrará variados lugares</p>
+            <img src="image/iconeCADASTR.png" alt="Ícone" />
+            <p>Com o seu cadastro, você <br> encontrará variados lugares</p>
             <a href="#">Me cadastrar</a>
           </div>
           <div>
             <img src="image/iconeADDLOCA.png" alt="Ícone" />
-            <p>Com o seu cadastro, você encontrará variados lugares</p>
+            <p>Ajude-nos <br> a crescer</p>
             <a href="#">Adicionar Local</a>
           </div>
         </div>
@@ -215,13 +220,14 @@
     </main>
     <footer>
       <a href="#">Fale conosco</a>
-      <div>
-        <p>E-mail <br />accex@gmail.com</p>
-        <span
-          ><img src="image/logoFaceb.png" alt="Ícone Facebook" /><img
-            src="image/logoInstag.png"
-            alt="Ícone Instagram" /><img src="image/logoX.png" alt="Ícone X"
-        /></span>
+      <div class="rodape-info">
+        <p>E-mail <br/> accex@gmail.com</p>
+        <div class="socialMedia">
+          <div><img src="image/logoFaceb.png" alt="Ícone Facebook" /></div><div>
+            <img src="image/logoInstag.png" alt="Ícone Instagram"/>
+          </div><div>
+            <img src="image/logoX.png" alt="Ícone X"/>
+          </div></div>
       </div>
     </footer>
   </body>
