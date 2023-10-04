@@ -22,7 +22,7 @@ form label{
 }
 
 form input{
-    border: 1px solid #797979;
+    border: 1px solid #79797946;
     padding: 2.5vw;
     border-radius: 10px;
     margin-bottom: 10vw;
@@ -41,5 +41,38 @@ form textarea{
     border-radius: 10px;
     padding: 5vw;
     margin-bottom: 5vh;
+}
+
+.Acessos{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    border: 1px solid #79797946;
+    border-radius: 10px;
+    padding: 5vw;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+fieldset legend{
+    margin-bottom: 2vh;
+    font: normal 3.5vw "Montserrat", sans-serif;
+}
+
+fieldset div{
+    height: 5vh;
+}
+
+.Acessos button{
+    margin-bottom: 8vh;
+}
+
+fieldset label{
+    margin-left: 1vw;
+
 }
 }

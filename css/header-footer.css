@@ -39,7 +39,7 @@ nav{
     right: -100vw;
     background-color: white;
     width: 50vw;
-    height: 50vw;
+    height: 55vw;
     display: flex;
     justify-content: center;
     transition-duration: 0.5s;
@@ -56,7 +56,7 @@ nav ul{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 1vh;
+    gap: 1.5vh;
 }
 
 footer{
