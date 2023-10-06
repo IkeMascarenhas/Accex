@@ -1,3 +1,5 @@
+@media(max-width:480px){
+
 .title-page{
     background-image:linear-gradient(to right, #00518C,  #377ED0 );
     display: flex;
@@ -15,4 +17,5 @@
 
 .title-page h1{
     font: normal 4.5vw "Montserrat",sans-serif;
+}
 }

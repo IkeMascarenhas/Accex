@@ -1,6 +1,9 @@
+@media(max-width:480px){
+
+
 header{
     width: 100vw;
-    height: 8vh;
+    height: 10vh;
     background-color: white;
     display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -9,7 +12,6 @@ header{
             grid-auto-flow: row;
             grid-template-areas:
               "none logo user";
-
           
 }
 
@@ -31,7 +33,7 @@ header img{
     grid-area: user;
     justify-self: center;
     align-self: center;
-    z-index: 5;
+    z-index: 2;
 }
 
 nav{
@@ -44,6 +46,7 @@ nav{
     justify-content: center;
     transition-duration: 0.5s;
     align-items: center;
+    z-index: 1;
 }
 
 .show-menu{
@@ -116,4 +119,5 @@ footer .rodape-info{
     width: 60%;
     aspect-ratio: 1/1;
     object-fit: contain;
+}
 }
