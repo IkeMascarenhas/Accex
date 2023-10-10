@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/formularios.css" />
-    <link rel="stylesheet" href="css/header-footer.css">
-    <script src="js/menu.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <span></span>
-      <a href="index.html"><img src="image/logoAccex-azul.png" alt="Logo" /></a>
-      <img src="image/iconePERFIL.png" id="usuario" alt="User" class="open-menu"/>
-      <nav class="menu-container">
-        <ul>
-          <li>Entrar</li>
-          <li>Cadastro</li>
-          <li>Perfil</li>
-        </ul>
-      </nav>
-    </header>
-<main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/formularios.css" />
+  <link rel="stylesheet" href="css/header-footer.css">
+  <script src="js/menu.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <span></span>
+    <a href="index.html"><img src="image/logoAccex-azul.png" alt="Logo" /></a>
+    <img src="image/iconePERFIL.png" id="usuario" alt="User" class="open-menu" />
+    <nav class="menu-container">
+      <ul>
+        <li>Entrar</li>
+        <li>Cadastro</li>
+        <li>Perfil</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
 
     <h1>Faça o seu cadastro</h1>
     <form>
-        <label for="fullName">Seu nome completo</label>
-        <input type="text" id="fullName" name="fullName">
-        <label for="email">Nome de Usuário</label>
-        <input type="text" id="userName" name="userName">
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" name="tel">
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email">
-        <label for="password">Senha</label>
-        <input type="password" id="password" name="password">
-        <label for="confirmPassword">Confirmação de senha</label>
-        <input type="password" id="confirmPassword" name="confirmPassword">
-        
+      <label for="fullName">Seu nome completo</label>
+      <input type="text" id="fullName" name="fullName">
+      <label for="email">Nome de Usuário</label>
+      <input type="text" id="userName" name="userName">
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="tel">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email">
+      <label for="password">Senha</label>
+      <input type="password" id="password" name="password">
+      <label for="confirmPassword">Confirmação de senha</label>
+      <input type="password" id="confirmPassword" name="confirmPassword">
 
-        <button>Me cadastrar</button>
+
+      <button>Me cadastrar</button>
     </form>
-</main>
-<footer>
-  <a href="faleConosco.html">Fale conosco</a>
-  <div class="rodape-info">
-    <img src="image/logoAccex-branca.png" alt="" id="logo">
-    <p>E-mail <br/> accex@gmail.com</p>
-    <div class="socialMedia">
-      <div><img src="image/logoFaceb.png" alt="Ícone Facebook" /></div><div>
-        <img src="image/logoInstag.png" alt="Ícone Instagram"/>
-      </div><div>
-        <img src="image/logoX.png" alt="Ícone X"/>
-      </div></div>
-  </div>
-</footer>
-    </body>
-  </html>
+  </main>
+  <footer>
+    <a href="faleConosco.html">Fale conosco</a>
+    <div class="rodape-info">
+      <img src="image/logoAccex-branca.png" alt="" id="logo">
+      <p>E-mail <br /> accex@gmail.com</p>
+      <div class="socialMedia">
+        <div><img src="image/logoFaceb.png" alt="Ícone Facebook" /></div>
+        <div>
+          <img src="image/logoInstag.png" alt="Ícone Instagram" />
+        </div>
+        <div>
+          <img src="image/logoX.png" alt="Ícone X" />
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
