@@ -13,13 +13,20 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-    /* width: 80vw; */
+    gap: 1.5vh;
     margin: 5vh auto;
+    width: 85vw;
 }
 
 form label{
     font: normal 3.5vw "Montserrat",sans-serif;
     margin-bottom: 2.5vw;
+    width: 80vw;
+    margin: auto;
+}
+
+.locais{
+    font: normal 3.5vw "Montserrat",sans-serif;
 }
 
 form input{
@@ -35,7 +42,7 @@ form button{
     padding: 3vw;
     color: white;
     border-radius: 10px;
-    margin: auto;
+    align-self: center;
 }
 
 form textarea{
@@ -45,6 +52,46 @@ form textarea{
     border-radius: 10px;
     padding: 5vw;
     margin-bottom: 5vh;
+}
+
+.notify{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 90vw;
+    background-color: white;
+    border: 1px solid #797979;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    padding: 8vw;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.show-notify{
+    position: absolute;
+    top: 35% !important;
+    transition-duration: 0.8s;
+}
+
+.notify p{
+    font: normal 3.5vw "Montserrat",sans-serif;
+    text-align: center;
+    color: #333333;
+}
+
+.notify a{
+    background-image: linear-gradient(to right, #00518C,  #377ED0 );
+    padding: 3vw;
+    text-align: center;
+    color: white;
+    font: bold 3vw "Montserrat",sans-serif;
+    width: 80%;
+    border-radius: 10px;
+
 }
 
 .Acessos{
@@ -89,4 +136,22 @@ fieldset label{
     text-align: center;
 }
 
+.locais input{
+    margin-bottom: 2.5vh !important;
+}
+
+.Tipo-locais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.Tipo-locais span{
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+}
+
+.Tipo-locais span input{
+    margin-right: 1.5vw;
+}
 }
