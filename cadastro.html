@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="css/formularios.css" />
     <link rel="stylesheet" href="css/header-footer.css">
     <script src="js/menu.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-    <script src="js/validacao.js" defer></script>
   </head>
   <body>
     <header>
@@ -38,9 +35,12 @@
         <label for="email">E-mail</label>
         <input type="email" id="email" name="email">
         <label for="password">Senha</label>
-        <input type="password" id="password" name="password"> 
+        <input type="password" id="password" name="password">
+        <label for="confirmPassword">Confirmação de senha</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        
 
-        <button>Me cadastrar</button>
+      <button>Me cadastrar</button>
     </form>
 </main>
 <footer>
@@ -56,14 +56,5 @@
       </div></div>
   </div>
 </footer>
-  <script>
-        $("#CNPJ").mask("99.999.999/9999-99");
-        $("#telefone").mask("(99) 99999-99999")
-        $("#CEP").mask("99999-999")
-        $("#CPF").mask("999.999.999-99")
-        $("#data").mask("99/99/9999")
-        $("#card").mask("9999 9999 9999 9999")
-  </script>
-
     </body>
   </html>
