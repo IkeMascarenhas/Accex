@@ -1,5 +1,5 @@
-let menu = document.querySelector(".menu-container")
+let open_hamburguer = document.querySelector(".menu-container")
 let open_menu = document.querySelector(".open-menu")
 open_menu.addEventListener('click',()=>{
-    menu.classList.toggle("show-menu")
+    open_hamburguer.classList.toggle("show-menu")
 })

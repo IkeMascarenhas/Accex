@@ -32,7 +32,7 @@ btn_form.addEventListener('click', (el)=>{
     }
 
     // Validação do telefone (formato numérico com ou sem traços)
-    var telefonePattern = /^\d{10}|\d{3}-\d{4}-\d{3}$/;
+    var telefonRePattern = /^\d{10}|\d{3}-\d{4}-\d{3}$/;
     if (!telefone.match(telefonePattern)) {
         alert("Por favor, insira um telefone válido (XXXXXXXXXX ou XXXX-XXXX-XXX).");
         return false;
