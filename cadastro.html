@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/formularios.css" />
     <link rel="stylesheet" href="css/header-footer.css">
     <script src="js/menu.js" defer></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
   </head>
   <body>
     <header>
@@ -56,5 +58,12 @@
       </div></div>
   </div>
 </footer>
+<script>
+  $("#CNPJ").mask("99.999.999/9999-99");
+  $("#telefone").mask("(99) 99999-99999")
+  $("#CEP").mask("99999-999")
+  $("#CPF").mask("999.999.999-99")
+  $("#data").mask("99/99/9999")
+</script>
     </body>
   </html>
