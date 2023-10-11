@@ -133,8 +133,12 @@
       <input type="text" name="Num" id="Num" required maxlength="4">
 
       <p>Anexe uma foto do estabelecimento:</p>
-      <input type="file" name="img-preview" id="img-preview" value="+">
-      <label for="img-preview">+</label>
+      <!-- <input type="file" name="img-preview" id="img-preview" value="+">
+      <label for="img-preview">+</label> -->
+      <div id="boxLogo">
+          <label for="Logo" class="addLogo"><img src="img/botao-adicionar.png" alt="Botão para adicionar Logo">Logo</label>
+          <input type="file" aria-label="Logo" required name="Logo" id="Logo" max="1" placeholder="Logo">
+      </div>
     </form>
   </main>
   <footer>
